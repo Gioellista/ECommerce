@@ -1,0 +1,22 @@
+@import "../themes/night-theme/styles.css";
+
+.button-navigation::part(label) {
+    width: 100%;
+    text-align: left;
+}
+
+.button-navigation {
+    margin: 0;
+    color: var(--color-transparency-5);
+    background: var(--color-transparency-0);
+    transition: 0.5s;
+}
+
+.button-navigation:hover {
+    background: var(--color-transparency-1);
+}
+
+.button-navigation:active {
+    background: var(--color-transparency-1);
+    color: var(--color-transparency-9)
+}

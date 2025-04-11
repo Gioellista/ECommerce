@@ -1,0 +1,86 @@
+:root {
+    --background-color: hsl(210, 23%, 9%);
+    --lumo-base-color: var(--background-color);
+
+    --text-color-disabled: hsla(0, 0%, 60%, 0.6);
+
+    /* RED */
+    --color-red-light-3: hsl(0, 100%, 90%);
+    --color-red-light-2: hsl(0, 100%, 80%);
+    --color-red-light-1: hsl(0, 100%, 70%);
+    --color-red: hsl(0, 100%, 50%);
+    --color-red-dim-1: hsla(0, 100%, 50%, 0.8);
+    --color-red-dim-2: hsla(0, 100%, 50%, 0.5);
+    --color-red-dim-3: hsla(0, 100%, 50%, 0.1);
+
+    /* BLUE */
+    --color-blue-light-3: hsl(210, 100%, 90%);
+    --color-blue-light-2: hsl(210, 100%, 80%);
+    --color-blue-light-1: hsl(210, 100%, 70%);
+    --color-blue: hsl(210, 100%, 50%);
+    --color-blue-dim-1: hsla(210, 100%, 50%, 0.8);
+    --color-blue-dim-2: hsla(210, 100%, 50%, 0.5);
+    --color-blue-dim-3: hsla(210, 100%, 50%, 0.1);
+
+    /* CYAN */
+    --color-cyan-light-3: hsl(180, 100%, 90%);
+    --color-cyan-light-2: hsl(180, 100%, 80%);
+    --color-cyan-light-1: hsl(180, 100%, 70%);
+    --color-cyan: hsl(180, 100%, 50%);
+    --color-cyan-dim-1: hsla(180, 100%, 50%, 0.8);
+    --color-cyan-dim-2: hsla(180, 100%, 50%, 0.5);
+    --color-cyan-dim-3: hsla(180, 100%, 50%, 0.1);
+
+    /* FOREST */
+    --color-forest-light-3: hsl(128, 100%, 90%);
+    --color-forest-light-2: hsl(128, 100%, 80%);
+    --color-forest-light-1: hsl(128, 100%, 70%);
+    --color-forest: hsl(128, 100%, 50%);
+    --color-forest-dim-1: hsla(128, 100%, 50%, 0.8);
+    --color-forest-dim-2: hsla(128, 100%, 50%, 0.5);
+    --color-forest-dim-3: hsla(128, 100%, 50%, 0.1);
+
+    /* YELLOW */
+    --color-yellow-light-3: hsl(45, 100%, 90%);
+    --color-yellow-light-2: hsl(45, 100%, 80%);
+    --color-yellow-light-1: hsl(45, 100%, 70%);
+    --color-yellow: hsl(45, 100%, 50%);
+    --color-yellow-dim-1: hsla(45, 100%, 50%, 0.8);
+    --color-yellow-dim-2: hsla(45, 100%, 50%, 0.5);
+    --color-yellow-dim-3: hsla(45, 100%, 50%, 0.1);
+
+    /* PURPLE */
+    --color-purple-light-3: hsl(270, 100%, 90%);
+    --color-purple-light-2: hsl(270, 100%, 80%);
+    --color-purple-light-1: hsl(270, 100%, 70%);
+    --color-purple: hsl(270, 100%, 50%);
+    --color-purple-dim-1: hsla(270, 100%, 50%, 0.8);
+    --color-purple-dim-2: hsla(270, 100%, 50%, 0.5);
+    --color-purple-dim-3: hsla(270, 100%, 50%, 0.1);
+
+    /* TRANSPARENCY */
+    --color-transparency-10: hsla(0, 0%, 100%, 1.0);
+    --color-transparency-9: hsla(0, 0%, 100%, 0.9);
+    --color-transparency-7: hsla(0, 0%, 100%, 0.7);
+    --color-transparency-5: hsla(0, 0%, 100%, 0.5);
+    --color-transparency-3: hsla(0, 0%, 100%, 0.3);
+    --color-transparency-1: hsla(0, 0%, 100%, 0.1);
+    --color-transparency-0: hsla(0, 0%, 100%, 0.0);
+
+    /* TRANSPARENCY - DARK BLUE */
+    --color-transparency-darkBlue-10: hsla(215, 100%, 8%, 1.0);
+    --color-transparency-darkBlue-9: hsla(215, 100%, 8%, 0.9);
+    --color-transparency-darkBlue-7: hsla(215, 100%, 8%, 0.7);
+    --color-transparency-darkBlue-5: hsla(215, 100%, 8%, 0.5);
+    --color-transparency-darkBlue-3: hsla(215, 100%, 8%, 0.3);
+    --color-transparency-darkBlue-1: hsla(215, 100%, 8%, 0.1);
+
+    --border-radius-global: 5px;
+
+    --lumo-clickable-cursor: pointer;
+}
+
+html {
+    --lumo-base-color: var(--background-color);
+    --lumo-body-text-color: white;
+}
