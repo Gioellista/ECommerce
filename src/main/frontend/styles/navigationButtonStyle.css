@@ -10,19 +10,13 @@
     margin: 5px;
     padding: 12px;
     border-radius: var(--border-radius-global);
-    color: var(--color-transparency-9);
+    color: var(--color-transparency-5);
     background: var(--color-transparency-0);
     transition: 0.25s;
 }
 
 .button-navigation:hover {
     color: var(--color-blue);
-    background: var(--color-transparency-0);
-    cursor: pointer;
-}
-
-.button-navigation:active {
-    color: var(--color-transparency-7);
     background: var(--color-transparency-0);
     cursor: pointer;
 }

@@ -26,6 +26,10 @@ public class ProductService {
         return null;
     }
 
+    public List<Product> findByTitle(String title) {
+        return productRepository.search(title);
+    }
+
     public void save(Product product) {
         productRepository.save(product);
     }
