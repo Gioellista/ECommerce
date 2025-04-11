@@ -1,0 +1,23 @@
+@import "../themes/night-theme/styles.css";
+
+.dynamic-grid {
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-gap: 4px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+    margin-block-end: 2rem;
+}
+
+.grid-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: var(--border-radius-global);
+    background: var(--color-blue-dim-3);
+    color: var(--color-blue-dim-2);
+    aspect-ratio: 1;
+}
