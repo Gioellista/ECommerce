@@ -5,8 +5,8 @@
     height: 100%;
 
     display: grid;
-    grid-gap: 4px;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 12px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 
     margin-block-end: 2rem;
 }
@@ -17,7 +17,17 @@
     align-items: center;
 
     border-radius: var(--border-radius-global);
-    background: var(--color-blue-dim-3);
-    color: var(--color-blue-dim-2);
+    background: var(--color-transparency-1);
+    color: var(--color-transparency-7);
+
+    outline: var(--color-transparency-0) solid 1px;
+
     aspect-ratio: 1;
+
+    transition: 0.25s;
+}
+
+.grid-card:hover {
+    outline-color: var(--color-transparency-5);
+    cursor: pointer;
 }

@@ -75,7 +75,7 @@
     --color-transparency-darkBlue-3: hsla(215, 100%, 8%, 0.3);
     --color-transparency-darkBlue-1: hsla(215, 100%, 8%, 0.1);
 
-    --border-radius-global: 5px;
+    --border-radius-global: 12px;
 
     --lumo-clickable-cursor: pointer;
 }
