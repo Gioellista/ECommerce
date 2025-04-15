@@ -17,10 +17,10 @@
     --color-blue-light-3: hsl(210, 100%, 90%);
     --color-blue-light-2: hsl(210, 100%, 80%);
     --color-blue-light-1: hsl(210, 100%, 70%);
-    --color-blue: hsl(210, 100%, 50%);
-    --color-blue-dim-1: hsla(210, 100%, 50%, 0.8);
-    --color-blue-dim-2: hsla(210, 100%, 50%, 0.5);
-    --color-blue-dim-3: hsla(210, 100%, 50%, 0.1);
+    --color-blue: hsl(210, 100%, 60%);
+    --color-blue-dim-1: hsla(210, 100%, 60%, 0.8);
+    --color-blue-dim-2: hsla(210, 100%, 60%, 0.5);
+    --color-blue-dim-3: hsla(210, 100%, 60%, 0.1);
 
     /* CYAN */
     --color-cyan-light-3: hsl(180, 100%, 90%);
@@ -50,13 +50,13 @@
     --color-yellow-dim-3: hsla(45, 100%, 50%, 0.1);
 
     /* PURPLE */
-    --color-purple-light-3: hsl(270, 100%, 90%);
-    --color-purple-light-2: hsl(270, 100%, 80%);
-    --color-purple-light-1: hsl(270, 100%, 70%);
-    --color-purple: hsl(270, 100%, 50%);
-    --color-purple-dim-1: hsla(270, 100%, 50%, 0.8);
-    --color-purple-dim-2: hsla(270, 100%, 50%, 0.5);
-    --color-purple-dim-3: hsla(270, 100%, 50%, 0.1);
+    --color-purple-light-3: hsl(345, 100%, 90%);
+    --color-purple-light-2: hsl(345, 100%, 80%);
+    --color-purple-light-1: hsl(345, 100%, 70%);
+    --color-purple: hsl(345, 100%, 60%);
+    --color-purple-dim-1: hsla(345, 100%, 60%, 0.8);
+    --color-purple-dim-2: hsla(345, 100%, 60%, 0.5);
+    --color-purple-dim-3: hsla(345, 100%, 60%, 0.1);
 
     /* TRANSPARENCY */
     --color-transparency-10: hsl(200, 100%, 95%);

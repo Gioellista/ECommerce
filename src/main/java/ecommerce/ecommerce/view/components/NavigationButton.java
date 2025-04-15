@@ -39,6 +39,7 @@ public class NavigationButton extends Div {
         horizontalLayout = new HorizontalLayout();
         iconContainer = new Div();
         buttonText = new Text(text);
+        iconContainer.setClassName("icon-container");
 
         horizontalLayout.add(iconContainer, buttonText);
 
@@ -69,6 +70,7 @@ public class NavigationButton extends Div {
 
             if(res.toString().equals(getURL())){
                 setClassName("button-navigation-current");
+                iconContainer.setClassName("icon-container-current");
             }
         });
 

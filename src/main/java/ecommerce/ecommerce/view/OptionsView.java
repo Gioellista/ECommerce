@@ -23,6 +23,7 @@ public class OptionsView extends VerticalLayout {
 
     public OptionsView() {
         setSizeFull();
+        setMargin(false);
 
         LanguageString ls = new LanguageString("Options");
         ls.addEntry(Language.ITA, "Opzioni");
@@ -43,7 +44,7 @@ public class OptionsView extends VerticalLayout {
 
         LanguageString lsCurrency = new LanguageString("Currency");
         lsCurrency.addEntry(Language.ITA, "Moneta");
-        lsCurrency.addEntry(Language.DEU, "Wärung");
+        lsCurrency.addEntry(Language.DEU, "Währung");
 
         ComboBox<String> comboBox = new ComboBox<>(lsCurrency.get());
         comboBox.setItems(

@@ -17,6 +17,7 @@ public class GridView extends VerticalLayout {
     DynamicGrid grid;
 
     public GridView(ProductService productService) {
+        setMargin(false);
         this.productService = productService;
         grid = new DynamicGrid();
         updateProducts();

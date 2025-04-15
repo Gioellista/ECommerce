@@ -7,6 +7,7 @@ import com.vaadin.flow.component.combobox.ComboBox;
 import com.vaadin.flow.component.icon.VaadinIcon;
 import com.vaadin.flow.component.orderedlayout.FlexComponent;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
+import com.vaadin.flow.router.RouteConfiguration;
 import ecommerce.ecommerce.view.GridView;
 import ecommerce.ecommerce.view.OptionsView;
 import ecommerce.ecommerce.view.UploadView;
@@ -14,6 +15,8 @@ import ecommerce.ecommerce.view.WelcomeView;
 import state.language.Language;
 import state.language.LanguageContext;
 import state.language.LanguageString;
+
+import static org.atmosphere.util.IntrospectionUtils.getURL;
 
 public class MainLayout extends AppLayout {
 
@@ -36,7 +39,25 @@ public class MainLayout extends AppLayout {
 
         addToNavbar(header);
 
-        setDrawerOpened(true);
+        UI.getCurrent().getPage().fetchCurrentURL(url -> {
+
+            String str = url.toString();
+            StringBuilder res = new StringBuilder();
+            int i = 0;
+
+            while(i < str.length()) {
+                if(str.charAt(i) == '/') {
+                    res = new StringBuilder();
+                } else {
+                    res.append(str.charAt(i));
+                }
+                i++;
+            }
+
+            setDrawerOpened(!res.toString().isEmpty());
+        });
+
+
     }
 
     private void createDrawer() {
@@ -83,4 +104,5 @@ public class MainLayout extends AppLayout {
 
         addToDrawer(navigationWelcome, navigationGrid, navigationUpload, navigationOptions);
     }
+
 }

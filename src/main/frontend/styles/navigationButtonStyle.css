@@ -10,7 +10,7 @@
     margin: 5px;
     padding: 12px;
     border-radius: var(--border-radius-global);
-    color: var(--color-transparency-5);
+    color: var(--color-transparency-7);
     background: var(--color-transparency-0);
     transition: 0.25s;
 }
@@ -31,7 +31,15 @@
 }
 
 .button-navigation-current:hover {
-    color: var(--color-blue);
+    color: var(--color-yellow);
     background: var(--color-transparency-1);
     cursor: pointer;
+}
+
+.icon-container {
+    transition: 0.25s;
+}
+
+.icon-container-current {
+    color: var(--color-yellow);
 }

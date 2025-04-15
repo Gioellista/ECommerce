@@ -1,0 +1,7 @@
+@import "../themes/night-theme/styles.css";
+
+.product-form {
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
