@@ -78,6 +78,7 @@ public class NavigationButton extends Div {
 
     private String getURL() {
         return RouteConfiguration.forSessionScope().getUrl(navigationClass);
+
     }
 
 }
